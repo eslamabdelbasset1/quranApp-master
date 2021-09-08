@@ -1,0 +1,9 @@
+@import "./../../assets/scss/var.scss";
+.navbar
+{
+  background-color: $mainColor;
+}
+.navbar .navbar-brand,
+.navbar .nav-link{
+  color: aliceblue;
+}
