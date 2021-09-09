@@ -15,15 +15,22 @@
 <footer class="site-footer fixed-end">
   <div class="container">
     <div class="row">
-      <div class="col-md-10 col-sm-6 col-xs-12">
+      <div class="col-md-5 col-sm-6 col-xs-12">
         <audio #player src="{{_QuranService.audioSrc}}" class="audiplay position-fixed" controls></audio>
 
 <!--        <ang-music-player #player [audioList]=_QuranService.audioSrc></ang-music-player>-->
       </div>
 
-      <div class="col-md-2 col-sm-6 col-xs-12">
+      <div class="col-md-5 col-sm-6 col-xs-12">
         <div class="social-icons">
-          <p>{{this.data?.name}}</p>
+<!--          <p>{{this.data?.name}}</p>-->
+          <ul class="footer-social pt-3">
+            <li><a href="https://www.facebook.com/profile.php?id=100009242350772"><i class="fab fa-facebook fa-1x"></i></a></li>
+            <li><a href="https://github.com/eslamabdelbasset1"><i class="fab fa-github fa-1x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/eslamabdelbasset/"><i class="fab fa-linkedin fa-1x"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send/?phone=201060838210"><i class="fab fa-whatsapp fa-1x"></i></a></li>
+            <li><a href="https://www.instagram.com/eslamabdelbasset1/"><i class="fab fa-instagram fa-1x"></i></a></li>
+          </ul>
         </div>
       </div>
     </div>

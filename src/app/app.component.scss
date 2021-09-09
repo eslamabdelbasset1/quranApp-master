@@ -50,7 +50,7 @@ audio{
 .site-footer
 {
   background-color:$mainColor;
-  padding:15px 0 45px;
+  padding:15px 0 0;
   font-size:15px;
   line-height:15px;
   color:#737373;
@@ -63,7 +63,8 @@ audio{
 
 .site-footer .social-icons
 {
-  text-align:right
+  text-align:left;
+  margin-left: -45%;
 }
 .site-footer .social-icons a
 {
@@ -73,7 +74,7 @@ audio{
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#33353d
+  background-color:$secondColor;
 }
 .copyright-text
 {
@@ -99,8 +100,7 @@ audio{
 }
 .social-icons
 {
-  padding-left:0;
-  margin-bottom:0;
+
   list-style:none
 }
 .social-icons li
@@ -118,7 +118,7 @@ audio{
 }
 .social-icons a{
   background-color:#eceeef;
-  color:#818a91;
+  color:#fff;
   font-size:16px;
   display:inline-block;
   line-height:44px;
@@ -133,8 +133,8 @@ audio{
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
-  color:#fff;
-  background-color:#29aafe
+  color:#737373;
+  background-color:#fff;
 }
 .social-icons.size-sm a
 {
@@ -143,22 +143,7 @@ audio{
   width:34px;
   font-size:14px
 }
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
-}
+
 @media (max-width:767px)
 {
   .social-icons li.title
