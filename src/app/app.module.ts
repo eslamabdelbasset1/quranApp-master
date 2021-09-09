@@ -14,7 +14,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HttpClientModule} from "@angular/common/http";
 import { SidebarComponent } from './sidebar/sidebar.component';
-
+import { AngMusicPlayerModule } from  'ang-music-player';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,8 +33,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     NgxSpinnerModule,
     BrowserAnimationsModule,
     NgxPaginationModule,
+    AngMusicPlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}

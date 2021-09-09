@@ -10,5 +10,24 @@
       </div>
       </div>
     </div>
-    <audio #player src="{{_QuranService.audioSrc}}" class="w-50 position-fixed" controls></audio>
 </div>
+<!-- Site footer -->
+<footer class="site-footer fixed-end">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-sm-6 col-xs-12">
+        <audio #player src="{{_QuranService.audioSrc}}" class="audiplay position-fixed" controls></audio>
+
+<!--        <ang-music-player #player [audioList]=_QuranService.audioSrc></ang-music-player>-->
+      </div>
+
+      <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="social-icons">
+          <p>{{this.data?.name}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
